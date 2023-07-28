@@ -1,15 +1,18 @@
 package org.example;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-@Component
 public class Dog {
 
     private String name = "Sharik";
 
-    public Dog() {
-        System.out.println("Dog created");
-    }
+    //private People people;
+
+
+ /*   public Dog(People people) {
+        this.people = people;
+    }*/
 
     public String getName() {
         return name;
